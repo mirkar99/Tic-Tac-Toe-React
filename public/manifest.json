@@ -1,0 +1,36 @@
+{
+  "name": "tic-tac-toe",
+  "short_name": "tic-tac-toe",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/safari-pinned-tab.svg",
+      "color": "#5bbad5"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [],
+  "orientation": "any",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr"
+}

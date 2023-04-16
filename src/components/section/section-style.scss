@@ -1,0 +1,63 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 220px;
+    transition: transform .5s;
+
+    &__header {
+        width: 100%;
+        text-align: center;
+    }
+
+    &____text {
+        margin-bottom: 10px;
+    }
+
+    &__block {
+        display: flex;
+        width: 250px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__horizontal-line {
+        height: 5px;
+        width: 100%;
+        background-color: black;
+    }
+
+    &__element {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        font-size: 24px;
+        background-color: gray;
+    }
+
+    &__vertical-line {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 60px;
+        width: 5px;
+        background-color: black;
+    }
+
+    @media screen and (min-width:700px) {
+        & {
+            transform: scale(1.2);
+        }
+    }
+
+    @media screen and (min-width:1000px) {
+        & {
+            transform: scale(1.4);
+        }
+    }
+}

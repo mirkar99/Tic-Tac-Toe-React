@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+    height: 100vh;
+}
+
+.result-info {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 264px;
+    font-size: 24px;
+    background-color: black;
+    color: darkgray;
+    transition: transform .2s;
+}
+
+@media screen and (min-width:700px) {
+    .result-info {
+        transform: scaleY(1.2);
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .result-info {
+        transform: scaleY(1.4);
+        font-size: 3.5em;
+    }
+}
+
+.hidden {
+    position: absolute;
+    overflow: hidden;
+    visibility: hidden;
+    transform: scale(0);
+}
